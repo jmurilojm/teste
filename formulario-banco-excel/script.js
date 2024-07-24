@@ -37,7 +37,7 @@ function tratamentoDeEnvio(e) {
         body: JSON.stringify({
             NOME: nome.value,
             EMAIL: email.value,
-            MENSAGEM: `https://www.google.com/maps/place/${-7.8961133}%${20-37.1251023}`,
+            MENSAGEM: `https://www.google.com/maps/place/${-7.8961133}%20${-37.1251023}`,
         }) // Estes nomes devem ser iguais aos das colunas, inclusive em minusculos ou maiusculos, para que posam ser encontrados.
     }).then(() => {
         alert('Mensagem enviada com Sucesso!');
